@@ -147,7 +147,7 @@
       { key:'control_panel', label:'조작부',         method:'조작부 오염상태(버튼명, 방향표시 등 식별 가능 여부) 확인할 것',                 refImg:'조작.png' },
       { key:'emg_stop',      label:'비상 정지 장치', method:'비상 정지 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',            refImg:'비상정지.png' },
       { key:'emg_lower',     label:'비상 하강 장치', method:'비상 하강 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',            refImg:'비상하강.png' },
-      { key:'ext_platform',  label:'확장 발판',       method:'확장 발판 고정핀 상태 확인할 것',                                          refImg:'확장.png' }
+      { key:'ext_platform',  label:'확장 발판',       method:'확장 발판 고정핀 상태 및 내부 청소 상태 확인할 것',                                          refImg:'확장.png' }
     ];
 
     const state={date:'',org:'',site:'',inspector:'',equip:'고소차(시저형)',equipId:'',checks:Object.fromEntries(checklistTemplate.map(i=>[i.key,''])),remarks:'',action:''};
